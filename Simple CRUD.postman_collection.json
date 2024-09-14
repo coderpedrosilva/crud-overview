@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "127db447-65c6-4a40-9550-0067cd4cef12",
+		"name": "Simple CRUD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "36753419"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Produto C\",\r\n    \"preco\": 10.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/produtos"
+			},
+			"response": []
+		},
+		{
+			"name": "Read - All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/produtos"
+			},
+			"response": []
+		},
+		{
+			"name": "Read - ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/produtos/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Produto A Atualizado\",\r\n    \"preco\": 15.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/produtos/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/produtos/2"
+			},
+			"response": []
+		}
+	]
+}
