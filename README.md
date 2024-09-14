@@ -1,8 +1,6 @@
-Alguns CRUD Simples em Spring Boot
+# crud-overview
 
-Spring Initialzr
-- No mínimo escolher o Java 17 para o Spring 3 funcionar
-- Dependencies: Spring Web, Spring Data JPA, Spring Boot DevTools, MySQL Driver, H2 Database, Lombok
+Alguns CRUD Simples em Spring Boot
 
 Como executar:
 
